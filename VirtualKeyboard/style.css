@@ -1,0 +1,92 @@
+*,*:focus,*:hover{
+    outline:none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    resize: none;
+    position: absolute; 
+    top: 130px; 
+    width: 700px; 
+    height: 100px;
+}
+
+.keyboard {
+    position: absolute;
+    top: 45%;
+    min-width: 52%;
+    padding: 5px 0;
+    background: #023047;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    user-select: none;
+    transition: bottom 0.4s;
+}
+
+.keyboard--hidden {
+    bottom: -100%;
+}
+
+.boardContainer {
+    text-align: center;
+}
+
+.key {
+    height: 46px;
+    width: 3vw;
+    max-width: 90px;
+    margin: 3px;
+    border-radius: 3.5px;
+    border: none;
+    background: #125669;
+    color: #ffffff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    padding: 0;
+    transition: all 0.3s;
+}
+
+.Backspace{
+    min-width: 8.1vw;
+}
+
+.tabdel{
+    min-width: 3.9vw;
+}
+
+.CapsLock{
+    min-width:6.5vw;
+}
+
+.Enter{
+    min-width: 7.8vw;
+}
+
+.Shift{
+    min-width:7.15vw;
+}
+
+.Space{
+    min-width:22.9vw;
+}
+
+.Control{
+    min-width: 3.75vw;
+}
+
+
+
+
+
+
+
+
+
